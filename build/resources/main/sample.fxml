@@ -7,7 +7,7 @@
 <AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <MediaView fx:id="mv" fitHeight="360.0" fitWidth="640.0" />
-      <Button fx:id="btn_play" layoutX="14.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleButtonPlay" text="Play" />
-      <Button fx:id="btn_stop" layoutX="62.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleButtonStop" text="Stop" />
+      <Button fx:id="btn_play" layoutX="14.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleButtonPlay" onMouseEntered="#handleMouseOver" text="Play" />
+      <Button fx:id="btn_stop" layoutX="62.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleButtonStop" onMouseEntered="#handleMouseOver" text="Stop" />
    </children>
 </AnchorPane>
